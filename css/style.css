@@ -1,0 +1,216 @@
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; height: 100%; }
+#slide1{
+	background:url(../images/tech_pipe.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	margin: 0;
+	padding: 50px 0 50px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+/*height: 300px;*/
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+#slide3{
+	background: url(../images/slide3.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	padding: 50px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #fff;
+	color: #333333;
+	height: 300px;
+	padding: 200px 0;
+}
+
+#slide5{
+	background: url(../images/slide5.jpg) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+/* ----------------MEDIA QUERIES START----------------------------*/
+
+/* Large desktop */
+@media (min-width: 1366px) {
+  #slide1{
+  	height: 1010px;
+  }
+
+  #slide3{
+  	height: 1010px;
+  }
+
+  #slide5{
+  	height: 1010px;
+  }
+
+	.guy_coding_img {
+  	margin-left: 45px;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1366px) {
+	#slide1{
+  	height: 688px;
+  }
+
+  #slide3{
+  	height: 688px;
+  }
+
+  #slide5{
+  	height: 688px;
+  }
+
+	.space3d {
+	  -webkit-perspective: 1000px;
+	  width: 150px;
+	  height: 150px;
+	  text-align: center;
+	  display: inline-block;
+	}
+
+	._3dbox {
+	  display: inline-block;
+	  -webkit-transition: all 0.85s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	  text-align: center;
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  -webkit-transform-style: preserve-3d;
+	  -webkit-transform: rotateX(-15deg) rotateY(15deg);
+	}
+
+	._3dface {
+	  overflow: hidden;
+	  position: absolute;
+	  border: 1px solid #888;
+	  background: #FFF;
+	  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
+	  color: #333;
+	  line-height: 150px;
+	  opacity: 0.8;
+	}
+
+	._3dface--front {
+	  width: 150px;
+	  height: 150px;
+	  -webkit-transform: translate3d(0, 0, 75px);
+	}
+
+	._3dface--top {
+	  width: 150px;
+	  height: 150px;
+	  -webkit-transform: rotateX(90deg) translate3d(0, 0, 75px);
+	}
+
+	._3dface--bottom {
+	  width: 150px;
+	  height: 150px;
+	  -webkit-transform: rotateX(-90deg) translate3d(0, 0, 75px);
+	}
+
+	._3dface--left {
+	  width: 150px;
+	  height: 150px;
+	  left: 50%;
+	  margin-left: -75px;
+	  -webkit-transform: rotateY(-90deg) translate3d(0, 0, 75px);
+	}
+
+	._3dface--right {
+	  width: 150px;
+	  height: 150px;
+	  left: 50%;
+	  margin-left: -75px;
+	  -webkit-transform: rotateY(90deg) translate3d(0, 0, 75px);
+	}
+
+	._3dface--back {
+	  width: 150px;
+	  height: 150px;
+	  -webkit-transform: rotateY(180deg) translate3d(0, 0, 75px);
+	}
+	#radio-left:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateY(90deg);
+	}
+
+	#radio-right:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateY(-90deg);
+	}
+
+	#radio-bottom:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateX(90deg);
+	}
+
+	#radio-top:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateX(-90deg);
+	}
+
+	#radio-back:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateY(180deg);
+	}
+
+	._3dface--front {
+	  background-image: url(/images/layer1.png);
+	  background-size: cover;
+	}
+
+	._3dface--left {
+	  background-image: url(/images/layer4.png);
+	  background-size: cover;
+	}
+
+	._3dface--right {
+	  background-image: url(/images/layer2.png);
+	  background-size: cover;
+	}
+
+	._3dface--top {
+	  background-image: url(/images/layer5.png);
+	  background-size: cover;
+	}
+
+	._3dface--bottom {
+	  background-image: url(/images/layer3.png);
+	  background-size: cover;
+	}
+
+	._3dface--back {
+	  background-image: url(/images/layer6.png);
+	  background-size: cover;
+	}
+
+	.guy_coding_img {
+		width: 420px;
+		height: 147px;
+  	margin-left: 0px;
+	}
+	}
+
+	.separator-lower {
+	  height: 0px;
+	}
+}
+/* ----------------MEDIA QUERIES END----------------------------*/
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #fff;  }
