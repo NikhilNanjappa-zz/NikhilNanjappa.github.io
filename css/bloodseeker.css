@@ -5,10 +5,6 @@ body {
   text-align: center;
 }
 
-/*.container {
-  width: 1600px;
-}*/
-
 /* 1st Row */
 
 .separator {
@@ -32,127 +28,11 @@ body {
 
 /* 3D Cube */
 
-.space3d {
-  -webkit-perspective: 1000px;
-  width: 250px;
-  height: 250px;
-  text-align: center;
-  display: inline-block;
-}
+/* present in style.css media queries */
 
-._3dbox {
-  display: inline-block;
-  -webkit-transition: all 0.85s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  text-align: center;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  -webkit-transform-style: preserve-3d;
-  -webkit-transform: rotateX(-15deg) rotateY(15deg);
-}
+/* 3D Cube */
 
-._3dface {
-  overflow: hidden;
-  position: absolute;
-  border: 1px solid #888;
-  background: #FFF;
-  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
-  color: #333;
-  line-height: 250px;
-  opacity: 0.8;
-}
-
-._3dface--front {
-  width: 250px;
-  height: 250px;
-  -webkit-transform: translate3d(0, 0, 125px);
-}
-
-._3dface--top {
-  width: 250px;
-  height: 250px;
-  -webkit-transform: rotateX(90deg) translate3d(0, 0, 125px);
-}
-
-._3dface--bottom {
-  width: 250px;
-  height: 250px;
-  -webkit-transform: rotateX(-90deg) translate3d(0, 0, 125px);
-}
-
-._3dface--left {
-  width: 250px;
-  height: 250px;
-  left: 50%;
-  margin-left: -125px;
-  -webkit-transform: rotateY(-90deg) translate3d(0, 0, 125px);
-}
-
-._3dface--right {
-  width: 250px;
-  height: 250px;
-  left: 50%;
-  margin-left: -125px;
-  -webkit-transform: rotateY(90deg) translate3d(0, 0, 125px);
-}
-
-._3dface--back {
-  width: 250px;
-  height: 250px;
-  -webkit-transform: rotateY(180deg) translate3d(0, 0, 125px);
-}
-
-#radio-left:hover ~ .space3d ._3dbox {
-  -webkit-transform: rotateY(90deg);
-}
-
-#radio-right:hover ~ .space3d ._3dbox {
-  -webkit-transform: rotateY(-90deg);
-}
-
-#radio-bottom:hover ~ .space3d ._3dbox {
-  -webkit-transform: rotateX(90deg);
-}
-
-#radio-top:hover ~ .space3d ._3dbox {
-  -webkit-transform: rotateX(-90deg);
-}
-
-#radio-back:hover ~ .space3d ._3dbox {
-  -webkit-transform: rotateY(180deg);
-}
-
-._3dface--front {
-  background-image: url(/images/layer1.png);
-  background-size: cover;
-}
-
-._3dface--left {
-  background-image: url(/images/layer4.png);
-  background-size: cover;
-}
-
-._3dface--right {
-  background-image: url(/images/layer2.png);
-  background-size: cover;
-}
-
-._3dface--top {
-  background-image: url(/images/layer5.png);
-  background-size: cover;
-}
-
-._3dface--bottom {
-  background-image: url(/images/layer3.png);
-  background-size: cover;
-}
-
-._3dface--back {
-  background-image: url(/images/layer6.png);
-  background-size: cover;
-}
-
-/* 2nd Row */
+/* 2nd Row start */
 
 .left_line {
   width:400px;

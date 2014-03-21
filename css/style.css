@@ -4,10 +4,15 @@
 
 #slide1, #slide2{ width: 100%; height: 100%; }
 #slide1{
-	background:url(../images/tech_pipe.jpg) 50% 0 no-repeat fixed;
+/*background:url(../images/tech_pipe.jpg) 50% 0 no-repeat fixed;*/
+/* nice green -> #96a94b */
+/* nice blue -> #435a6b */
+/* pick colors from here -> http://tympanus.net/Development/CreativeLinkEffects/#cl-effect-19 or http://tympanus.net/Development/IconHoverEffects/#set-8 */
+
+	background-color: #435a6b;
 	color: #fff;
 	margin: 0;
-	padding: 50px 0 50px 0;
+	padding: 0 0 50px 0;
 	background-size: cover;
 }
 
@@ -21,9 +26,9 @@
 }
 
 #slide3{
-	background: url(../images/slide3.jpg) 50% 0 no-repeat fixed;
+	background-color: #16a085;
 	color: #fff;
-	padding: 50px 0 0 0;	
+	padding: 0 0 0 0;
 	background-size: cover;
 }
 
@@ -35,9 +40,9 @@
 }
 
 #slide5{
-	background: url(../images/slide5.jpg) 50% 0 no-repeat fixed;
+	background-color: #96a94b;
 	margin: 0 auto;
-	padding: 250px 0;
+	padding: 0 0;
 	color: #fff;
 	background-size: cover;
 }
@@ -58,6 +63,126 @@
   	height: 1010px;
   }
 
+  .space3d {
+  -webkit-perspective: 1000px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  display: inline-block;
+}
+
+	._3dbox {
+	  display: inline-block;
+	  -webkit-transition: all 0.85s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	  text-align: center;
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  -webkit-transform-style: preserve-3d;
+	  -webkit-transform: rotateX(-15deg) rotateY(15deg);
+	}
+
+	._3dface {
+	  overflow: hidden;
+	  position: absolute;
+	  border: 1px solid #888;
+	  background: #FFF;
+	  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
+	  color: #333;
+	  line-height: 250px;
+	  opacity: 1;
+	}
+
+	._3dface--front {
+	  width: 250px;
+	  height: 250px;
+	  -webkit-transform: translate3d(0, 0, 125px);
+	}
+
+	._3dface--top {
+	  width: 250px;
+	  height: 250px;
+	  -webkit-transform: rotateX(90deg) translate3d(0, 0, 125px);
+	}
+
+	._3dface--bottom {
+	  width: 250px;
+	  height: 250px;
+	  -webkit-transform: rotateX(-90deg) translate3d(0, 0, 125px);
+	}
+
+	._3dface--left {
+	  width: 250px;
+	  height: 250px;
+	  left: 50%;
+	  margin-left: -125px;
+	  -webkit-transform: rotateY(-90deg) translate3d(0, 0, 125px);
+	}
+
+	._3dface--right {
+	  width: 250px;
+	  height: 250px;
+	  left: 50%;
+	  margin-left: -125px;
+	  -webkit-transform: rotateY(90deg) translate3d(0, 0, 125px);
+	}
+
+	._3dface--back {
+	  width: 250px;
+	  height: 250px;
+	  -webkit-transform: rotateY(180deg) translate3d(0, 0, 125px);
+	}
+
+	#radio-left:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateY(90deg);
+	}
+
+	#radio-right:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateY(-90deg);
+	}
+
+	#radio-bottom:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateX(90deg);
+	}
+
+	#radio-top:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateX(-90deg);
+	}
+
+	#radio-back:hover ~ .space3d ._3dbox {
+	  -webkit-transform: rotateY(180deg);
+	}
+
+	._3dface--front {
+	  background-image: url(/images/nikhil.png);
+	  background-size: cover;
+	}
+
+	._3dface--left {
+	  background-image: url(/images/parallax_img.png);
+	  background-size: cover;
+	}
+
+	._3dface--right {
+	  background-image: url(/images/spicon_img.png);
+	  background-size: cover;
+	}
+
+	._3dface--top {
+	  background-image: url(/images/hi-charts_img.png);
+	  background-size: cover;
+	}
+
+	._3dface--bottom {
+	  background-image: url(/images/coming-soon.jpg);
+	  background-size: cover;
+	}
+
+	._3dface--back {
+	  background-image: url(/images/coming-soon.jpg);
+	  background-size: cover;
+	}
+
 	.guy_coding_img {
   	margin-left: 45px;
 	}
@@ -65,6 +190,11 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1366px) {
+
+	.social {
+		top: 250px;
+	}
+
 	#slide1{
   	height: 688px;
   }
@@ -104,7 +234,7 @@
 	  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
 	  color: #333;
 	  line-height: 150px;
-	  opacity: 0.8;
+	  opacity: 1;
 	}
 
 	._3dface--front {
@@ -167,32 +297,32 @@
 	}
 
 	._3dface--front {
-	  background-image: url(/images/layer1.png);
+	  background-image: url(/images/nikhil.png);
 	  background-size: cover;
 	}
 
 	._3dface--left {
-	  background-image: url(/images/layer4.png);
+	  background-image: url(/images/parallax_img.png);
 	  background-size: cover;
 	}
 
 	._3dface--right {
-	  background-image: url(/images/layer2.png);
+	  background-image: url(/images/spicon_img.png);
 	  background-size: cover;
 	}
 
 	._3dface--top {
-	  background-image: url(/images/layer5.png);
+	  background-image: url(/images/hi-charts_img.png);
 	  background-size: cover;
 	}
 
 	._3dface--bottom {
-	  background-image: url(/images/layer3.png);
+	  background-image: url(/images/coming-soon.jpg);
 	  background-size: cover;
 	}
 
 	._3dface--back {
-	  background-image: url(/images/layer6.png);
+	  background-image: url(/images/coming-soon.jpg);
 	  background-size: cover;
 	}
 
@@ -201,10 +331,13 @@
 		height: 147px;
   	margin-left: 0px;
 	}
-	}
 
 	.separator-lower {
 	  height: 0px;
+	}
+
+	.ij-effect-20 a {
+		font-size: 1em;
 	}
 }
 /* ----------------MEDIA QUERIES END----------------------------*/
