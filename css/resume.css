@@ -57,6 +57,9 @@ body {
 .word13 {
   color: #d99ab5;
 }
+.word14 {
+  color: #c35585;
+}
 .word1 {
   font-size: 6.3em;
 }
@@ -92,6 +95,9 @@ body {
   font-size: 8.2em;
 }
 .word13 {
+  font-size: 7.8em;
+}
+.word14 {
   font-size: 7.8em;
 }
 .bubble1 {
@@ -172,7 +178,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 183px;
+  top: 207px;
   left: -280px;
 }
 .bubble3 span.the-arrow3 {
@@ -199,7 +205,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 260px;
+  top: 230px;
   left: 280px;
 }
 .bubble4 span.the-arrow4 {
@@ -214,7 +220,7 @@ body {
   left: -19px;
 }
 .bubble5 {
-  height: 200px;
+  height: 280px;
   width: 250px;
   padding: 20px;
   position: absolute;
@@ -225,7 +231,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 450px;
+  top: 465px;
   left: -280px;
 }
 .bubble5 span.the-arrow5 {
@@ -252,7 +258,7 @@ body {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 30px;
-  top: 509px;
+  top: 539px;
   left: 280px;
   line-height: 1.8;
 }
@@ -280,7 +286,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 675px;
+  top: 785px;
   left: -280px;
 }
 .bubble7 span.the-arrow7 {
@@ -307,7 +313,7 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 0;
-  top: 853px;
+  top: 813px;
   left: 280px;
 }
 .bubble8 span.the-arrow8 {
@@ -320,4 +326,42 @@ body {
   position: absolute;
   top: 160px;
   left: -19px;
+}
+.bubble9 {
+  height: 180px;
+  width: 250px;
+  padding: 20px;
+  position: absolute;
+  color: white;
+  background-color: #c35585;
+  font-family: "Open Sans Condensed";
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  top: 1099px;
+  left: -280px;
+  line-height: 1.8;
+}
+.bubble9 span.the-arrow9 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #c35585;
+  position: absolute;
+  top: 160px;
+  left: 250px;
+  -webkit-transform: rotateX(180deg);
+}
+.social {
+  font-size: 30px;
+}
+.social i{
+  color:white;
+  margin-right: 1em;
+}
+.social i:hover{
+  color:#555;
+}
+.social i:active{
+  color:#555;
 }
