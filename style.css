@@ -17,18 +17,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-top: 5px;
 }
 
-.heart-icon {
-	a {
-		span {
-			color: #e46f61;
-		}
-	}
+.heart-icon a span{
+	color: #e46f61;
 }
 
-.social {
-	a:hover {
-		color: #839fc0;
-	}
+.social span:hover {
+	color: #839fc0;
 }
 
 /* Globals type styling */
