@@ -12,7 +12,7 @@ body{
 a:hover{text-decoration: none; cursor:pointer;}
 
 
-/* My custom classes */
+/* My custom classes - Start */
 .plus-icon {
 	padding-top: 5px;
 }
@@ -24,6 +24,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 .social span:hover {
 	color: #839fc0;
 }
+
+.get-in-touch-container {
+	padding-top: 50px;
+}
+/* My custom classes - End */
 
 /* Globals type styling */
     h1, h2, h3, h4, h5, h6, p, label, .btn, a{
