@@ -11,25 +11,6 @@ body{
 }
 a:hover{text-decoration: none; cursor:pointer;}
 
-
-/* My custom classes - Start */
-.plus-icon {
-	padding-top: 5px;
-}
-
-.heart-icon a span{
-	color: #e46f61;
-}
-
-.social span:hover {
-	color: #839fc0;
-}
-
-.get-in-touch-container {
-	padding-top: 50px;
-}
-/* My custom classes - End */
-
 /* Globals type styling */
     h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 	font-family:"Helvetica";
@@ -503,3 +484,21 @@ iframe{
        display:none; 
     }
 }
+
+/* My custom classes - Start */
+.plus-icon {
+	padding-top: 5px;
+}
+
+.heart-icon a span{
+	color: #e46f61;
+}
+
+.social span:hover {
+	color: #839fc0;
+}
+
+.get-in-touch-container {
+	padding-top: 50px;
+}
+/* My custom classes - End */
