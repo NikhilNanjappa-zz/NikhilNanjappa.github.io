@@ -506,7 +506,7 @@ iframe{
 /* ----------------MEDIA QUERIES START----------------------------*/
 
 .separator {
-  margin-top: 140px;
+  margin-top: 80px;
 }
 
 /* Large desktop */
@@ -801,8 +801,8 @@ iframe{
 		padding: 5px;
 	}
 
-	.ij-effect-20 a:hover {
-		border-color: whitesmoke;
+	.ij-effect-20 a span:hover {
+		border-color: #e46f61;
 	}
 }
 /* ----------------MEDIA QUERIES END----------------------------*/
