@@ -798,11 +798,11 @@ iframe{
 
 	.ij-effect-20 a {
 		font-size: 1em;
-		padding: 5px;
+		padding: 20px;
 	}
 
 	.ij-effect-20 a span:hover {
-		border-color: #e46f61;
+		color: #e46f61;
 	}
 }
 /* ----------------MEDIA QUERIES END----------------------------*/
