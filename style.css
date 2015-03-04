@@ -778,32 +778,32 @@ iframe{
 	}
 
 	._3dface--front {
-	  background-image: url(/images/nikhil.png);
+	  background-image: url(/images/layer1.png);
 	  background-size: cover;
 	}
 
 	._3dface--left {
-	  background-image: url(/images/parallax_img.png);
+	  background-image: url(/images/layer2.png);
 	  background-size: cover;
 	}
 
 	._3dface--right {
-	  background-image: url(/images/spicon_img.png);
+	  background-image: url(/images/layer3.png);
 	  background-size: cover;
 	}
 
 	._3dface--top {
-	  background-image: url(/images/hi-charts_img.png);
+	  background-image: url(/images/layer4.png);
 	  background-size: cover;
 	}
 
 	._3dface--bottom {
-	  background-image: url(/images/coming-soon.jpg);
+	  background-image: url(/images/layer5.png);
 	  background-size: cover;
 	}
 
 	._3dface--back {
-	  background-image: url(/images/coming-soon.jpg);
+	  background-image: url(/images/layer6.png);
 	  background-size: cover;
 	}
 
