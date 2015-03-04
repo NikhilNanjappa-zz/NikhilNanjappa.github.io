@@ -501,6 +501,15 @@ iframe{
 .get-in-touch-container {
 	padding-top: 50px;
 }
+
+.ij-effect-20 a {
+	font-size: 1em;
+	padding: 20px;
+}
+
+.ij-effect-20 a span:hover {
+	color: #e46f61;
+}
 /* My custom classes - End */
 
 /* ----------------MEDIA QUERIES START----------------------------*/
