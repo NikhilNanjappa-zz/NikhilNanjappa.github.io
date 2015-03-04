@@ -798,6 +798,11 @@ iframe{
 
 	.ij-effect-20 a {
 		font-size: 1em;
+		padding: 5px;
+	}
+
+	.ij-effect-20 a:hover {
+		border-color: whitesmoke;
 	}
 }
 /* ----------------MEDIA QUERIES END----------------------------*/
