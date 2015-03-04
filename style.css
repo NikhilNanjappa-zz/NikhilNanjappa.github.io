@@ -198,7 +198,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 .navbar-brand{
 	height:auto;
 	padding:15px 15px;
-	font-family: Berkshire Swash;
+	font-family: "Berkshire";
 	font-size:25px!important;
 	font-weight:normal;
 	font-weight:600;
@@ -327,7 +327,7 @@ img.mg-lg{
 
 .btn{
 	margin: 0 5px 5px 0;
-	font-family: Berkshire Swash;
+	font-family: "Berkshire"
 }
 .btn.pull-right{
 	margin: 0 0 5px 5px;
@@ -495,7 +495,7 @@ iframe{
 }
 
 .site-navigation li a {
-	font-family: Berkshire Swash;
+	font-family: "Berkshire";
 }
 
 .plus-icon {
