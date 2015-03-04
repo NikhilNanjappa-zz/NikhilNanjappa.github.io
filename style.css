@@ -505,6 +505,10 @@ iframe{
 
 /* ----------------MEDIA QUERIES START----------------------------*/
 
+.separator {
+  margin-top: 40px;
+}
+
 /* Large desktop */
 @media (min-width: 1366px) {
   #slide1{
