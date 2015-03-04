@@ -489,10 +489,10 @@ iframe{
 
 /* My custom classes - Start */
 
-/*@font-face {
+@font-face {
     font-family: "Berkshire";
     src: url(/fonts/BerkshireSwash-Regular.ttf) format("truetype");
-}*/
+}
 
 .site-navigation li a {
 	font-family: Berkshire Swash;
