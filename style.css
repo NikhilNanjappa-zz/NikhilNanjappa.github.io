@@ -486,6 +486,16 @@ iframe{
 }
 
 /* My custom classes - Start */
+
+@font-face {
+    font-family: "Berkshire";
+    src: url(/fonts/BerkshireSwash-Regular.ttf) format("truetype");
+}
+
+.site-navigation li a {
+	font-family: "Berkshire";
+}
+
 .plus-icon {
 	padding-top: 5px;
 }
