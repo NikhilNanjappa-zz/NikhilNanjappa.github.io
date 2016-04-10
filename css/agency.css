@@ -391,6 +391,12 @@ section h3.section-subheading {
     }
 }
 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-toggle {
+        margin-right: 30px;
+    }
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
