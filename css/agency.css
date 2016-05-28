@@ -397,6 +397,18 @@ section h3.section-subheading {
     }
 }
 
+#services img {
+    filter: none;
+    -webkit-transition: -webkit-filter 0.3s ease-in-out;
+    -webkit-filter: grayscale(0%);
+}
+
+#services img:hover {
+    cursor: pointer;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -578,9 +590,14 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+.timeline-heading {
+    color: #e74c3c;
+}
+
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+    text-transform: none;
 }
 
 .timeline .timeline-heading h4.subheading {
