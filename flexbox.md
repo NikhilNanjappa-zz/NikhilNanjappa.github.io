@@ -2,6 +2,7 @@
 
 ![Flexbox](http://www.freewebtutorials.info/wp-content/uploads/css-flexbox.jpg)
 
+___
 ##### Why Flexbox (Advantages)
 ___
 - because its a CSS3 feature! LOL ... *seriously though*
@@ -21,6 +22,7 @@ With the old box model - Consider a scenario where we are creating a 4 column la
 ```
 This would create 35% width instead (element width + padding) exceeding 100%. Usually we use `float` or `inline-block` to achieve the same in which case mostly we end up manually calculating the padding/margin values we need to provide to fit in the elements. These situations are avoided using the flexbox.
 
+___
 ##### Flexbox Vocabulary
 ___
 ![Flexbox](https://mdn.mozillademos.org/files/3739/flex_terms.png)
@@ -46,6 +48,7 @@ Advanced properties
 
 Note :: Properties like `float`, `clear`, `text-align`, `vertical-align` will have no effect on flex items.
 
+___
 ##### Lets play!
 ___
 What are we trying to achieve ?
@@ -54,18 +57,21 @@ What are we trying to achieve ?
 
 [link for the demo](http://codepen.io/PleaseBugMeNot/pen/EyJXJP)
 
+___
 ##### Flexbox Playgrounds
 ___
 - [Flexbox froggy](http://flexboxfroggy.com/)
 - [Flexyboxes](http://the-echoplex.net/flexyboxes/)
 - [Flexbox Demo](http://demo.agektmr.com/flexbox/)
 
+___
 ##### Good links to learn flexbox
 ___
 - [Flex box properties](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox Cheatsheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
 - [Tutorial site](http://flexbox.io/)
 
+___
 ##### Browser Supports
 ___
 IE9-, unfortunately, doesn't support flexbox at all. **IE10 supports the 2011 version**.
@@ -74,4 +80,4 @@ IE9-, unfortunately, doesn't support flexbox at all. **IE10 supports the 2011 ve
 
 Previous versions of Firefox, Chrome, and Safari 3.1+ support 2009 version. **Chrome 21+ also supports 2012 version** with prefix.
 
-Also the [Can I Use link](http://caniuse.com/#search=flexbox)
+Also the [Can I Use reference](http://caniuse.com/#search=flexbox)
