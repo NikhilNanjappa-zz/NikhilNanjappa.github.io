@@ -46,6 +46,14 @@ Advanced properties
 
 Note :: Properties like `float`, `clear`, `text-align`, `vertical-align` will have no effect on flex items.
 
+##### My Codepen Demo
+___
+What are we trying to achieve ?
+
+![Codepen Demo](https://mdn.mozillademos.org/files/3760/HolyGrailLayout.png)
+
+[link for the demo](http://codepen.io/PleaseBugMeNot/pen/EyJXJP)
+
 ##### Flexbox Playgrounds
 ___
 - [Flexbox froggy](http://flexboxfroggy.com/)
@@ -67,9 +75,3 @@ IE9-, unfortunately, doesn't support flexbox at all. **IE10 supports the 2011 ve
 Previous versions of Firefox, Chrome, and Safari 3.1+ support 2009 version. **Chrome 21+ also supports 2012 version** with prefix.
 
 Also the [Can I Use link](http://caniuse.com/#search=flexbox)
-
-##### My Codepen Demo
-___
-What are we trying to achieve ?
-![Codepen Demo](https://mdn.mozillademos.org/files/3760/HolyGrailLayout.png)
-[link for the demo](http://codepen.io/PleaseBugMeNot/pen/EyJXJP)
