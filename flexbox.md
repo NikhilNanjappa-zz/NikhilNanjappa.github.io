@@ -46,7 +46,7 @@ Advanced properties
 
 Note :: Properties like `float`, `clear`, `text-align`, `vertical-align` will have no effect on flex items.
 
-##### My Codepen Demo
+##### Lets play!
 ___
 What are we trying to achieve ?
 
