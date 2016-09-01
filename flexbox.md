@@ -82,4 +82,4 @@ Previous versions of Firefox, Chrome, and Safari 3.1+ support 2009 version. **Ch
 
 Also the [Can I Use reference](http://caniuse.com/#search=flexbox)
 
-[Ocean Blog Test Server](digtestwebsrv01:7779/blog/)
+[Ocean Blog Test Server](http://digtestwebsrv01:7779/blog/)
