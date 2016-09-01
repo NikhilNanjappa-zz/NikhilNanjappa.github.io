@@ -81,3 +81,5 @@ IE9-, unfortunately, doesn't support flexbox at all. **IE10 supports the 2011 ve
 Previous versions of Firefox, Chrome, and Safari 3.1+ support 2009 version. **Chrome 21+ also supports 2012 version** with prefix.
 
 Also the [Can I Use reference](http://caniuse.com/#search=flexbox)
+
+[Ocean Blog Test Server](digtestwebsrv01:7779/blog/)
