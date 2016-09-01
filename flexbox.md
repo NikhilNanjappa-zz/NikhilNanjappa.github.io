@@ -75,7 +75,7 @@ ___
 ___
 ##### Browser Supports
 ___
-IE9-, unfortunately, doesn't support flexbox at all. **IE10 supports the 2011 version**.
+IE9-, unfortunately, doesn't support flexbox at all. **IE10 supports the 2011 version**. [More on IE compatibility](https://msdn.microsoft.com/en-us/library/hh673531(v=vs.85).aspx)
 
 **Opera 12.1+ supports the latest 2012 version** unprefixed. It will **also be supported by Chrome 30+ and IE11+**. **Firefox 22 already supports it**, too, but only partially — it doesn't support flex-wrap property and flex-flow shorthand.
 
