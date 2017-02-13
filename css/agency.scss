@@ -847,38 +847,7 @@ footer {
         }
     }
 
-    ul {
-        &.quicklinks {
-            margin-bottom: 0;
-            text-transform: uppercase;
-            text-transform: none;
-            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-            line-height: 40px;
-        }
 
-        &.social-buttons {
-            margin-bottom: 0;
-
-            li a {
-                display: block;
-                width: 40px;
-                height: 40px;
-                border-radius: 100%;
-                font-size: 20px;
-                line-height: 40px;
-                outline: 0;
-                color: #fff;
-                background-color: #222;
-                -webkit-transition: all .3s;
-                -moz-transition: all .3s;
-                transition: all .3s;
-
-                &:hover, &:focus, &:active {
-                    background-color: #e74c3c;
-                }
-            }
-        }
-    }
 }
 
 .btn:focus,
@@ -968,22 +937,87 @@ footer {
     }
 }
 
-.counter {
-    border-top-left-radius: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    background-color: transparent;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 99;
-}
-
 img::selection {
     background: 0 0;
 }
 
 img::-moz-selection {
     background: 0 0;
+}
+
+
+
+
+
+ul.social-buttons {
+    margin-bottom: 0;
+
+    li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        font-size: 20px;
+        line-height: 40px;
+        outline: 0;
+        color: #fff;
+        background-color: #222;
+
+
+        &:hover, &:focus, &:active {
+            background-color: #e74c3c;
+        }
+    }
+}
+
+
+
+
+
+
+.social-widget{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3E50;
+    width: 60px;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    z-index: 99;
+
+    li{
+        display: list-item;
+        list-style: none;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background: #3498DB;
+
+            a { color: white; }
+        }
+
+        a {
+            color: #cccccc;
+            padding: 15px 0;
+            display: block;
+            font-size: 20px;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            transition: all .3s;
+        }
+    }
+
+    .fontawesome-facebook,
+    .fontawesome-twitter,
+    .fontawesome-linkedin,
+    .fontawesome-google-plus{
+        color: #CCC;
+    }
 }
